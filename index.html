@@ -116,10 +116,11 @@
   <link rel="canonical" href="http://yoursite.com/"/>
 
   <title> 黄心平的博客 </title>
+  <link rel="stylesheet" href="/css/fakeLoader.css">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
+	<div id="fakeLoader"></div>
   
 
 
@@ -246,6 +247,111 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+  
+
+  
+  
+  	
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/05/音乐“/" itemprop="url">
+                  音乐“
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-05T08:37:31+08:00" content="2016-10-05">
+              2016-10-05
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/05/音乐“/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/05/音乐“/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+			
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          
+          
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/05/音乐“/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
       
 
@@ -739,7 +845,21 @@ var _hmt = _hmt || [];
 
   
 
-  
-
+       
+<script type="text/javascript" src="/js/src/jquery.min.js"></script>
+<script type="text/javascript" src="/js/src/jquery.gradientify.min.js"></script>
+<script src="/js/src/fakeLoader.min.js"></script>    
+<script>
+$('#header').gradientify({
+    gradients: [
+        { start: [49,76,172], stop: [242,159,191] },
+        { start: [255,103,69], stop: [240,154,241] },
+        { start: [33,229,241], stop: [235,236,117] }
+    ]
+});  
+</script> 
+ <script type="text/javascript">
+$("#fakeloader").fakeLoader();
+</script>       
 </body>
 </html>

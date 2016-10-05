@@ -116,10 +116,11 @@
   <link rel="canonical" href="http://yoursite.com/tags/css/"/>
 
   <title> 标签: css | 黄心平的博客 </title>
+  <link rel="stylesheet" href="/css/fakeLoader.css">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
+	<div id="fakeLoader"></div>
   
 
 
@@ -365,7 +366,7 @@ var duoshuoQuery = {short_name:"xinpingjun123"};
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -382,7 +383,7 @@ var duoshuoQuery = {short_name:"xinpingjun123"};
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -548,7 +549,21 @@ var _hmt = _hmt || [];
 
   
 
-  
-
+       
+<script type="text/javascript" src="/js/src/jquery.min.js"></script>
+<script type="text/javascript" src="/js/src/jquery.gradientify.min.js"></script>
+<script src="/js/src/fakeLoader.min.js"></script>    
+<script>
+$('#header').gradientify({
+    gradients: [
+        { start: [49,76,172], stop: [242,159,191] },
+        { start: [255,103,69], stop: [240,154,241] },
+        { start: [33,229,241], stop: [235,236,117] }
+    ]
+});  
+</script> 
+ <script type="text/javascript">
+$("#fakeloader").fakeLoader();
+</script>       
 </body>
 </html>
