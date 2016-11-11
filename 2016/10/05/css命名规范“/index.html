@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="http://yoursite.com">
+  <title>css命名规范 | 黄心平的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="css命名规范">
+<meta property="og:url" content="http://yoursite.com/2016/10/05/css命名规范“/index.html">
+<meta property="og:site_name" content="黄心平的博客">
+<meta property="og:image" content="http://oeij3zm70.bkt.clouddn.com/43616-106.jpg">
+<meta property="og:updated_time" content="2016-10-05T06:28:29.963Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="css命名规范">
+<meta name="twitter:image" content="http://oeij3zm70.bkt.clouddn.com/43616-106.jpg">
+  
+    <link rel="alternative" href="/atom.xml" title="黄心平的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/main.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+      <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img src="null" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">黄心平</a></h1>
+		</hgroup>
+
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/随笔">随笔</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+	        
+    		
+    			
+    			<a class="js-smart-menu" data-idx="0" href="javascript:void(0)">所有文章</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="1" href="javascript:void(0)">标签</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="2" href="javascript:void(0)">友链</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="3" href="javascript:void(0)">关于我</a>
+    			
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="#" title="github">github</a>
+		        
+					<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+		        
+					<a class="rss" target="_blank" href="#" title="rss">rss</a>
+		        
+					<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"><i class="icon-list"></i></div>
+  		<h1 class="header-author js-mobile-header hide">黄心平</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				
+					<img src="null" class="js-avatar">
+				
+			</div>
+			<hgroup>
+			  <h1 class="header-author">黄心平</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/tags/随笔">随笔</a></li>
+		        
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="#" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="#" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap">
+        <article id="post-css命名规范“" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      css命名规范
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="http://oeij3zm70.bkt.clouddn.com/43616-106.jpg" alt="image"><br><a id="more"></a></p>
+<h3 id="css文件分类和引用顺序"><a href="#css文件分类和引用顺序" class="headerlink" title="css文件分类和引用顺序"></a>css文件分类和引用顺序</h3><ol>
+<li>公共样式 （重置设置默认值，通用模块等） </li>
+<li>特殊样式（与网站整体差异较大维护高）</li>
+<li>皮肤样式（换肤功能网站）<h3 id="css命名空间"><a href="#css命名空间" class="headerlink" title="css命名空间"></a>css命名空间</h3></li>
+</ol>
+<ul>
+<li>布局（grid）（.g-）页面的头部主体边栏底部等</li>
+<li>模块（module）（.m-）可以重复使用的模块如导航，各种列表，选项卡等</li>
+<li>元件（unit）（.u-）小巧的个体，用于各个模块中，如按钮，输入框，图标等</li>
+<li>功能（function）(.f-) 浮动，清楚浮动，居中等</li>
+<li>皮肤（skin）（.s-）用于可以换肤的网站</li>
+<li>状态（.z-）如选中，显示，关闭等</li>
+</ul>
+<h4 id="页面框架命名，一般具有唯一性，推荐用ID命名"><a href="#页面框架命名，一般具有唯一性，推荐用ID命名" class="headerlink" title="页面框架命名，一般具有唯一性，推荐用ID命名"></a>页面框架命名，一般具有唯一性，推荐用ID命名</h4><table>
+<thead>
+<tr>
+<th style="text-align:left">ID名称</th>
+<th style="text-align:left">命名</th>
+<th style="text-align:left">ID名称</th>
+<th style="text-align:left">命名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">头部</td>
+<td style="text-align:left">header</td>
+<td style="text-align:left">主体</td>
+<td style="text-align:left">main</td>
+</tr>
+<tr>
+<td style="text-align:left">脚部</td>
+<td style="text-align:left">footer</td>
+<td style="text-align:left">容器</td>
+<td style="text-align:left">wrapper</td>
+</tr>
+<tr>
+<td style="text-align:left">侧栏</td>
+<td style="text-align:left">sideBar</td>
+<td style="text-align:left">栏目</td>
+<td style="text-align:left">column</td>
+</tr>
+<tr>
+<td style="text-align:left">布局</td>
+<td style="text-align:left">layout</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="模块结构命名"><a href="#模块结构命名" class="headerlink" title="模块结构命名"></a>模块结构命名</h4><table>
+<thead>
+<tr>
+<th style="text-align:left">Class名称</th>
+<th style="text-align:left">命名</th>
+<th style="text-align:left">Class名称</th>
+<th style="text-align:left">命名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">模块(如：新闻模块)</td>
+<td style="text-align:left">mod (mod-news)</td>
+<td style="text-align:left">标题栏</td>
+<td style="text-align:left">title</td>
+</tr>
+<tr>
+<td style="text-align:left">内容</td>
+<td style="text-align:left">content</td>
+<td style="text-align:left">次级内容</td>
+<td style="text-align:left">sub-content</td>
+</tr>
+</tbody>
+</table>
+<h4 id="导航结构命名"><a href="#导航结构命名" class="headerlink" title="导航结构命名"></a>导航结构命名</h4><table>
+<thead>
+<tr>
+<th style="text-align:left">Class名称</th>
+<th style="text-align:left">命名</th>
+<th style="text-align:left">Class名称</th>
+<th style="text-align:left">命名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">导航</td>
+<td style="text-align:left">nav</td>
+<td style="text-align:left">主导航</td>
+<td style="text-align:left">main-nav</td>
+</tr>
+<tr>
+<td style="text-align:left">子导航</td>
+<td style="text-align:left">sub-nav</td>
+<td style="text-align:left">顶部导航</td>
+<td style="text-align:left">top-nav</td>
+</tr>
+<tr>
+<td style="text-align:left">菜单</td>
+<td style="text-align:left">menu</td>
+<td style="text-align:left">子菜单</td>
+<td style="text-align:left">sub-menu</td>
+</tr>
+</tbody>
+</table>
+<h4 id="一般元素命名"><a href="#一般元素命名" class="headerlink" title="一般元素命名"></a>一般元素命名</h4><table>
+<thead>
+<tr>
+<th style="text-align:left">Class名称</th>
+<th style="text-align:left">命名</th>
+<th style="text-align:left">Class名称</th>
+<th style="text-align:left">命名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">二级</td>
+<td style="text-align:left">sub</td>
+<td style="text-align:left">面包屑</td>
+<td style="text-align:left">breadcrumb</td>
+</tr>
+<tr>
+<td style="text-align:left">标志</td>
+<td style="text-align:left">logo</td>
+<td style="text-align:left">广告</td>
+<td style="text-align:left">bner(禁用banner或ad)</td>
+</tr>
+<tr>
+<td style="text-align:left">登陆</td>
+<td style="text-align:left">login</td>
+<td style="text-align:left">注册</td>
+<td style="text-align:left">register/reg</td>
+</tr>
+<tr>
+<td style="text-align:left">搜索</td>
+<td style="text-align:left">search</td>
+<td style="text-align:left">加入</td>
+<td style="text-align:left">join</td>
+</tr>
+<tr>
+<td style="text-align:left">状态</td>
+<td style="text-align:left">status</td>
+<td style="text-align:left">按钮</td>
+<td style="text-align:left">btn</td>
+</tr>
+<tr>
+<td style="text-align:left">滚动</td>
+<td style="text-align:left">scroll</td>
+<td style="text-align:left">标签页</td>
+<td style="text-align:left">tab</td>
+</tr>
+<tr>
+<td style="text-align:left">文章列表</td>
+<td style="text-align:left">list</td>
+<td style="text-align:left">短消息</td>
+<td style="text-align:left">msg/message</td>
+</tr>
+<tr>
+<td style="text-align:left">当前的</td>
+<td style="text-align:left">current</td>
+<td style="text-align:left">提示小技巧</td>
+<td style="text-align:left">tips</td>
+</tr>
+<tr>
+<td style="text-align:left">图标</td>
+<td style="text-align:left">icon</td>
+<td style="text-align:left">注释</td>
+<td style="text-align:left">note</td>
+</tr>
+<tr>
+<td style="text-align:left">指南</td>
+<td style="text-align:left">guide</td>
+<td style="text-align:left">服务</td>
+<td style="text-align:left">service</td>
+</tr>
+<tr>
+<td style="text-align:left">热点</td>
+<td style="text-align:left">hot</td>
+<td style="text-align:left">新闻</td>
+<td style="text-align:left">news</td>
+</tr>
+<tr>
+<td style="text-align:left">下载</td>
+<td style="text-align:left">download</td>
+<td style="text-align:left">投票</td>
+<td style="text-align:left">vote</td>
+</tr>
+<tr>
+<td style="text-align:left">合作伙伴</td>
+<td style="text-align:left">partner</td>
+<td style="text-align:left">友情链接</td>
+<td style="text-align:left">link</td>
+</tr>
+<tr>
+<td style="text-align:left">版权</td>
+<td style="text-align:left">copyright</td>
+<td style="text-align:left">演示</td>
+<td style="text-align:left">demo</td>
+</tr>
+<tr>
+<td style="text-align:left">下拉框</td>
+<td style="text-align:left">select</td>
+<td style="text-align:left">摘要</td>
+<td style="text-align:left">summary</td>
+</tr>
+<tr>
+<td style="text-align:left">翻页</td>
+<td style="text-align:left">pages</td>
+<td style="text-align:left">主题风格</td>
+<td style="text-align:left">themes</td>
+</tr>
+<tr>
+<td style="text-align:left">设置</td>
+<td style="text-align:left">set</td>
+<td style="text-align:left">成功</td>
+<td style="text-align:left">suc</td>
+</tr>
+<tr>
+<td style="text-align:left">按钮</td>
+<td style="text-align:left">btn</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">txt</td>
+</tr>
+<tr>
+<td style="text-align:left">颜色</td>
+<td style="text-align:left">color/c</td>
+<td style="text-align:left">背景</td>
+<td style="text-align:left">bg</td>
+</tr>
+<tr>
+<td style="text-align:left">边框</td>
+<td style="text-align:left">border/bor</td>
+<td style="text-align:left">居中</td>
+<td style="text-align:left">center</td>
+</tr>
+<tr>
+<td style="text-align:left">上</td>
+<td style="text-align:left">top/t</td>
+<td style="text-align:left">下</td>
+<td style="text-align:left">bottom/b</td>
+</tr>
+<tr>
+<td style="text-align:left">左</td>
+<td style="text-align:left">left/l</td>
+<td style="text-align:left">右</td>
+<td style="text-align:left">right/r</td>
+</tr>
+<tr>
+<td style="text-align:left">添加</td>
+<td style="text-align:left">add</td>
+<td style="text-align:left">删除</td>
+<td style="text-align:left">del</td>
+</tr>
+<tr>
+<td style="text-align:left">间隔</td>
+<td style="text-align:left">sp</td>
+<td style="text-align:left">段落</td>
+<td style="text-align:left">p</td>
+</tr>
+<tr>
+<td style="text-align:left">弹出层</td>
+<td style="text-align:left">pop</td>
+<td style="text-align:left">公共</td>
+<td style="text-align:left">global/gb</td>
+</tr>
+<tr>
+<td style="text-align:left">操作</td>
+<td style="text-align:left">op</td>
+<td style="text-align:left">密码</td>
+<td style="text-align:left">pwd</td>
+</tr>
+<tr>
+<td style="text-align:left">透明</td>
+<td style="text-align:left">tran</td>
+<td style="text-align:left">信息</td>
+<td style="text-align:left">info</td>
+</tr>
+<tr>
+<td style="text-align:left">重点</td>
+<td style="text-align:left">hit</td>
+<td style="text-align:left">预览</td>
+<td style="text-align:left">pvw</td>
+</tr>
+<tr>
+<td style="text-align:left">单行输入框</td>
+<td style="text-align:left">input</td>
+<td style="text-align:left">首页</td>
+<td style="text-align:left">index</td>
+</tr>
+<tr>
+<td style="text-align:left">日志</td>
+<td style="text-align:left">blog</td>
+<td style="text-align:left">相册</td>
+<td style="text-align:left">photo</td>
+</tr>
+<tr>
+<td style="text-align:left">留言板</td>
+<td style="text-align:left">guestbook</td>
+<td style="text-align:left">用户</td>
+<td style="text-align:left">user</td>
+</tr>
+<tr>
+<td style="text-align:left">确认</td>
+<td style="text-align:left">confirm</td>
+<td style="text-align:left">取消</td>
+<td style="text-align:left">cancel</td>
+</tr>
+<tr>
+<td style="text-align:left">报错</td>
+<td style="text-align:left">error</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="全局皮肤样式"><a href="#全局皮肤样式" class="headerlink" title="全局皮肤样式"></a>全局皮肤样式</h4><h6 id="文字颜色-命名空间text-xxx"><a href="#文字颜色-命名空间text-xxx" class="headerlink" title="文字颜色(命名空间text-xxx)"></a>文字颜色(命名空间text-xxx)</h6><p>text-c1, text-c2,text-c3……</p>
+<h6 id="背景颜色-命名空间bg-xxx"><a href="#背景颜色-命名空间bg-xxx" class="headerlink" title="背景颜色(命名空间bg -xxx)"></a>背景颜色(命名空间bg -xxx)</h6><p>bg-c1,bg-c2,bg-c3……</p>
+<h6 id="边框颜色-命名空间border-xxx"><a href="#边框颜色-命名空间border-xxx" class="headerlink" title="边框颜色(命名空间border-xxx)"></a>边框颜色(命名空间border-xxx)</h6><p>border-c1,border-c2,border-c3……</p>
+<p>[出处](<a href="https://github.com/hoosin/lite/blob/master/Standard/CSS%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md" target="_blank" rel="external">https://github.com/hoosin/lite/blob/master/Standard/CSS%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md</a></p>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      <a href="/2016/10/05/css命名规范“/" class="archive-article-date">
+  	<time datetime="2016-10-05T03:39:13.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-05</time>
+</a>
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/">css</a></li></ul>
+	</div>
+
+      
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2016/10/08/我们为什么要尝试前后端分离/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          我们为什么要尝试前后端分离
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/10/04/npm常用命令/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">npm常用命令</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+	    <a class="jiathis_button_twitter"></a>
+	    <a class="jiathis_button_plus"></a> 
+	    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+
+
+
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 黄心平
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: false,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		root: "/",
+		innerArchive: true
+	}
+</script>
+
+<script src="/./main.js"></script>
+
+
+    
+<div class="tools-col">
+  <ul class="btn-wrap">
+    
+      <li class="chose" data-hook="tools-section-all"><span class="text">全部</span><i class="icon-book"></i></li>
+    
+    
+      <li data-hook="tools-section-tag"><span class="text">标签</span><i class="icon-price-tags"></i></li>
+    
+    
+      <li data-hook="tools-section-friends"><span class="text">友链</span><i class="icon-link"></i></li>
+    
+    
+      <li data-hook="tools-section-me"><span class="text">我</span><i class="icon-smile"></i></li>
+    
+  </ul>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all chose">
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-tag">
+    			<div class="widget tagcloud" id="js-tagcloud">
+    				<a href="/tags/npm/" style="font-size: 10px;">-npm</a> <a href="/tags/css/" style="font-size: 20px;">css</a> <a href="/tags/mui/" style="font-size: 10px;">mui</a> <a href="/tags/前后端分离/" style="font-size: 10px;">前后端分离</a> <a href="/tags/移动端/" style="font-size: 10px;">移动端</a>
+    			</div>
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-friends">
+  		
+  			<div class="friends-wrap" id="js-friends">
+  			
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接1</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接2</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接3</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接4</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接5</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接6</a>
+  	        
+  	        </div>
+  		
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-me">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
