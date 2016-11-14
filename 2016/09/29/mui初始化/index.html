@@ -243,19 +243,8 @@
                 
 	<!-- Paradox Post Header -->
 	
-		
-			<!-- Random Thumbnail -->
-			<div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-				<script>
-    
-    var randomNum;
-    randomNum = Math.floor(Math.random() * 5 + 1);
-    
-    $(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/' + randomNum + '.png' + ')');
-    
-</script>
-
-		
+		<!-- Custom Thumbnail -->
+		<div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://of2h3z9dn.bkt.clouddn.com/3.png)">
 	
         <p class="article-headline-p">
             mui初始化（css篇）
@@ -296,7 +285,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/css/">css</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/mui/">mui</a>
+        <a class="post_tag-link" href="/tags/css/">css</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/mui/">mui</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/rem/">rem</a>
     </ul>
     
     <!-- Share -->
@@ -346,7 +335,8 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
 	
-		<h1 id="定制mui-css样式"><a href="#定制mui-css样式" class="headerlink" title="定制mui css样式"></a>定制mui css样式</h1><a id="more"></a>
+		<p>mui自定义样式，c以及媒体查询，rem单位的应用</p>
+<a id="more"></a>
 <h1 id="设置mui单位为rem"><a href="#设置mui单位为rem" class="headerlink" title="设置mui单位为rem"></a>设置mui单位为rem</h1><h2 id="利用转换器将mui默认的css样式表px单位转换为rem"><a href="#利用转换器将mui默认的css样式表px单位转换为rem" class="headerlink" title="利用转换器将mui默认的css样式表px单位转换为rem"></a>利用转换器将mui默认的css样式表px单位转换为rem</h2><p>   转换器链接<a href="http://www.alurk.com/" target="_blank" rel="external">链接</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">1rem = 20px</div></pre></td></tr></table></figure></p>
 <p>###　 因为chrome下最小字体大小为12px，所以不能把html的font-size设置成1px或者10px，100px或者20px是我们最好的选择。</p>
 <h1 id="mui默认样式添加媒体查询"><a href="#mui默认样式添加媒体查询" class="headerlink" title="mui默认样式添加媒体查询"></a>mui默认样式添加媒体查询</h1><h2 id="参考sui-链接"><a href="#参考sui-链接" class="headerlink" title="参考sui 链接"></a>参考sui <a href="http://m.sui.taobao.org/" target="_blank" rel="external">链接</a></h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*媒体查询（参考sui）*/</span></div><div class="line"><span class="selector-tag">html</span> &#123;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">400px</span>) &#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">21.33333333px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">414px</span>) &#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">22.08px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">480px</span>) &#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">25.6px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -426,7 +416,7 @@
 <aside id="sidebar" class="sidebar sidebar-colored  sidebar-fixed-left" role="navigation">
 	<div id="sidebar-main">
 	    <!-- Sidebar Header -->
-		<div class="sidebar-header header-cover" style="background-image: url(https://api.i-meto.com/bing);">
+		<div class="sidebar-header header-cover" style="background-image: url(http://of2h3z9dn.bkt.clouddn.com/pexels-photo.jpg);">
     <!-- Top bar -->
     <div class="top-bar"></div>
 
