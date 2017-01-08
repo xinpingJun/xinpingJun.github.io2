@@ -1,2 +1,189 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> ARCHIVE | 黄心平的个人网站</title><meta name="description" content="A Blog Powered By Hexo"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/casual.css"><link rel="stylesheet" href="/css/semantic.min.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="黄心平的个人网站"></head><body><div class="sidebar"><div class="ui vertical inverted menu"><div class="h100"></div><h3 class="ui inverted aligned icon header"><div class="content"><a href="/" class="title-link">黄心平的个人网站</a></div></h3><div class="h50"></div><div class="side-nav"><a href="/" target="_self" class="item">首页<i class="icon 首页"></i></a><a href="/archives" target="_self" class="item">文章<i class="icon 文章"></i></a><a href="/tags" target="_self" class="item">标签<i class="icon 标签"></i></a><a href="/about" target="_self" class="item">关于我<i class="icon 关于我"></i></a><a href="http://xinpingjun.github.io/XUI/" target="_blank" class="item">UI组件库<i class="icon UI组件库"></i></a><a href="https://xinpingjun.github.io/resume/" target="_blank" class="item">个人简历<i class="icon 个人简历"></i></a></div><div class="item"><div class="ui inverted transparent icon input"><input type="text" placeholder="Search..." class="st-default-search-input"><i class="search icon"></i></div></div><div class="h50"></div></div><div class="h50 mq"><a class="ui teal big label"><i class="content icon"></i></a></div><div class="author-info"><a href="/" class="img-link"><img src="/author.gif" class="author-photo ui tiny circular image"></a><h4 class="ui aligned icon header"><div class="content">黄心平</div></h4><p class="author-desc">去做你不敢做的事，你才会发现不过如此</p><div class="social-outer"><div class="social-inner"><a href="http://github.com/xinpingjun" target="_blank" class="social-link"><i class="icon github"></i></a><a href="http://twitter.com/" target="_blank" class="social-link"><i class="icon twitter"></i></a><a href="http://weibo.com/xinpingjun" target="_blank" class="social-link"><i class="icon weibo"></i></a></div></div></div></div><div class="main"><div class="wrap"><section class="container"><div class="archive"><div class="ui animated list"><h2 class="archive-year">2016</h2><div class="post-item item"><div class="post-info"><div class="post-date"><h6 class="ui header"><i class="calendar icon"></i><div class="content">2016年11月28日</div></h6></div></div><a href="/2016/11/28/flex布局/" class="post-title-link">flex布局</a></div></div></div></section><footer><div class="paginator"></div><div class="copyright"><p>© 2016 - 2017 <a href="http://yoursite.com">黄心平</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and theme by <a href="https://github.com/littlewin-wang/hexo-theme-casual" target="_blank">casual</a></p></div></footer></div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><script src="/js/jquery.goup.min.js"></script><script src="/js/semantic.min.js"></script><script src="/js/casual.js"></script><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>$(document).ready(function(){$.goup({trigger:100,bottomOffset:100,locationOffset:5,title:'',titleAsText:true});});</script><script>(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-_st('install','TvAnFS4AVxjiJUvrZJRB','2.0.0');</script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></div></body></html>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="google-site-verification" content="" />
+  
+  <title>flex</title>
+  <meta name="author" content="黄心平">
+  
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:site_name" content="黄心平的个人网站"/>
+ <meta property="og:image" content="undefined"/>
+  
+  <link href="/apple-touch-icon-precomposed.png" sizes="180x180" rel="apple-touch-icon-precomposed">
+  <link rel="alternate" href="/atom.xml" title="黄心平的个人网站" type="application/atom+xml">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/m.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+  <a id="top"></a>
+  <div id='wx_pic' style='display:none;'><img src='/wx_share.png'/></div>
+  <div id="main">
+    <div class="behind">
+      <div class="back">
+        <a href="/" class="black-color"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+      <div class="description">
+        &nbsp;黄心平的个人网站
+      </div>
+    </div>
+    <div class="container">
+      <nav class="navigator"><nav class="navbar navbar-default navbar-fixed-top">
+  <div class="nav-container">
+
+
+  
+  <div id="site_search" class="">
+  <input type="text" id="local-search-input" name="q" placeholder="search" class="form-control"/>
+</div>
+<div id="local-search-result"></div>
+
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-link fa-lg"></i>
+      </a>
+      <ul class="dropdown-content">
+        
+          <li>
+            <a href="/links.html">
+        友情链接
+      </a>
+    </li>
+     
+          <li>
+            <a href="https://github.com/XXX/">
+        Github
+      </a>
+    </li>
+     
+          <li>
+            <a href="http://weibo.com/XXX">
+        微博
+      </a>
+    </li>
+     
+          <li>
+            <a href="https://www.zhihu.com/people/XXX">
+        知乎
+      </a>
+    </li>
+     
+          <li>
+            <a href="/rss2.xml">
+        rss
+      </a>
+    </li>
+     
+          <li>
+            <a href="/">
+        关于我
+      </a>
+    </li>
+     
+    </ul>
+    </li>
+    <li class="archives"><a href="/archives">
+      <i class="fa fa-archive fa-lg"></i>
+    </a></li>
+  </ul>
+  </div>
+</nav></nav>
+
+
+<h1 class="archive-title  tag">
+  
+  <i class="fa fa-tag"></i>
+  
+  flex
+</h1>
+<div class="archive-num">
+  该分类共 1 篇文章
+</div>
+<div class="archive">
+  
+    
+      
+
+      
+
+        
+
+        
+
+        
+
+        </ul></section>
+        <section data-link="year-2016" class="section-year">
+            <h2>2016</h2>
+            <ul class="archive-list">
+                <div class="archive-item">
+                    <div class="archive-time">
+                      11-28
+                    </div>
+                    <div class="archive-detail">
+                      <a href="/2016/11/28/flex布局/" class="archive-link">
+                        flex布局
+                      </a>
+                    </div>
+                </div>
+                <hr>
+                
+    
+</div>
+
+
+    </div>
+  </div>
+  <footer class="page-footer"><div class="clearfix">
+</div>
+<div class="right-foot container">
+    <div class="firstrow">
+        <a href="#top" target="_self">
+        <i class="fa fa-arrow-right"></i>
+        </a>
+        © xinpingjun 2016-2017
+    </div>
+    <div class="secondrow">
+        <a href="https://github.com/gaoryrt/hexo-theme-pln">
+        Theme Pln
+        </a>
+    </div>
+</div>
+<div class="clearfix">
+</div>
+</footer>
+  <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+
+// disqus scripts
+
+
+// dropdown scripts
+$(".dropdown").click(function(event) {
+  var current = $(this);
+  event.stopPropagation();
+  $(current).children(".dropdown-content")[($(current).children(".dropdown-content").hasClass("open"))?'removeClass':'addClass']("open")
+});
+$(document).click(function(){
+    $(".dropdown-content").removeClass("open");
+})
+
+var path = "/search.xml";
+searchFunc(path, 'local-search-input', 'local-search-result');
+
+</script>
+
+</body>
+</html>
