@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>黄心平的个人网站</title>
   
+  <link href="/atom.xml" rel="self"/>
   
+  <link href="http://yoursite.com/"/>
+  <updated>2017-01-08T01:55:56.143Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>黄心平</name>
     
-    <entry>
-      <title><![CDATA[flex布局]]></title>
-      <url>http://yoursite.com/2016/11/28/flex%E5%B8%83%E5%B1%80/</url>
-      <content type="html"><![CDATA[<h2 id="什么是flex布局？"><a href="#什么是flex布局？" class="headerlink" title="什么是flex布局？"></a>什么是flex布局？</h2><p>一个Flexbox布局是由一个伸缩容器（flex containers）和在这个容器里的伸缩项目（flex items）组成。<br>flex 弹性盒模型是css3提出的新属性，由于兼容问题，在pc上并不适用。flex布局可以在移动端可以更简便地实现各种布局。</p>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>flex布局</title>
+    <link href="http://yoursite.com/2016/11/28/flex%E5%B8%83%E5%B1%80/"/>
+    <id>http://yoursite.com/2016/11/28/flex布局/</id>
+    <published>2016-11-28T09:16:47.000Z</published>
+    <updated>2017-01-08T01:55:56.143Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是flex布局？"><a href="#什么是flex布局？" class="headerlink" title="什么是flex布局？"></a>什么是flex布局？</h2><p>一个Flexbox布局是由一个伸缩容器（flex containers）和在这个容器里的伸缩项目（flex items）组成。<br>flex 弹性盒模型是css3提出的新属性，由于兼容问题，在pc上并不适用。flex布局可以在移动端可以更简便地实现各种布局。</p>
 <h2 id="如何使用flex？"><a href="#如何使用flex？" class="headerlink" title="如何使用flex？"></a>如何使用flex？</h2><p>只要在任意容器制定为flex布局即可.</p>
 <h2 id="设置容器属性"><a href="#设置容器属性" class="headerlink" title="设置容器属性"></a>设置容器属性</h2><ul>
 <li>弹性盒子容器属性</li>
@@ -31,12 +47,26 @@
 </ol>
 <p><a href="https://xinpingjun.github.io/flexbox/" target="_blank" rel="external">弹性盒子实例链接</a></p>
 ]]></content>
-    </entry>
     
-    <entry>
-      <title><![CDATA[前后端分离]]></title>
-      <url>http://yoursite.com/2016/10/08/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/</url>
-      <content type="html"><![CDATA[<p>关于前端，后端工作流程及方法的现状，和前后端分离的优势。<br><a id="more"></a></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;什么是flex布局？&quot;&gt;&lt;a href=&quot;#什么是flex布局？&quot; class=&quot;headerlink&quot; title=&quot;什么是flex布局？&quot;&gt;&lt;/a&gt;什么是flex布局？&lt;/h2&gt;&lt;p&gt;一个Flexbox布局是由一个伸缩容器（flex containers）和在
+    
+    </summary>
+    
+    
+      <category term="flex" scheme="http://yoursite.com/tags/flex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前后端分离</title>
+    <link href="http://yoursite.com/2016/10/08/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/"/>
+    <id>http://yoursite.com/2016/10/08/前后端分离/</id>
+    <published>2016-10-08T02:53:40.000Z</published>
+    <updated>2017-01-08T01:56:18.239Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于前端，后端工作流程及方法的现状，和前后端分离的优势。<br><a id="more"></a></p>
 <h2 id="尝试与改变"><a href="#尝试与改变" class="headerlink" title="尝试与改变"></a>尝试与改变</h2><ul>
 <li>如果你没有尝试过前后端分离的工作流程，那么可以先试想一下这样的流程改变：</li>
 </ul>
@@ -123,12 +153,26 @@
 <p>等等。面对快速发展的前端，我们应该去适应其带来的工作方式和流程的改变，目前的前后端分离的工作方式必然是今后的趋势所在，作为一个前端开发人员，我们应当承担这个普及前端新知识和改变现状的职责。</p>
 <p>只有尝试了才知道适不适合，只有切身体会才能辨别谁是谁非，本文并非推崇一定要前后端分离，而是希望大家在合适的应用场景下去尝试前后端分离，在丰富经验的同时或许也会擦出火花。</p>
 <h4 id="转载自一个萝卜一个坑-博客园-http-www-cnblogs-com-luozhihao"><a href="#转载自一个萝卜一个坑-博客园-http-www-cnblogs-com-luozhihao" class="headerlink" title="转载自一个萝卜一个坑 -博客园[http://www.cnblogs.com/luozhihao]"></a>转载自一个萝卜一个坑 -博客园[<a href="http://www.cnblogs.com/luozhihao" target="_blank" rel="external">http://www.cnblogs.com/luozhihao</a>]</h4>]]></content>
-    </entry>
     
-    <entry>
-      <title><![CDATA[css命名规范]]></title>
-      <url>http://yoursite.com/2016/10/05/css%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83/</url>
-      <content type="html"><![CDATA[<p>收集整理css相关命名规范。<br><a id="more"></a></p>
+    <summary type="html">
+    
+      &lt;p&gt;关于前端，后端工作流程及方法的现状，和前后端分离的优势。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="前后端分离" scheme="http://yoursite.com/tags/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css命名规范</title>
+    <link href="http://yoursite.com/2016/10/05/css%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83/"/>
+    <id>http://yoursite.com/2016/10/05/css命名规范/</id>
+    <published>2016-10-05T03:39:13.000Z</published>
+    <updated>2017-01-07T06:21:44.942Z</updated>
+    
+    <content type="html"><![CDATA[<p>收集整理css相关命名规范。<br><a id="more"></a></p>
 <h3 id="css文件分类和引用顺序"><a href="#css文件分类和引用顺序" class="headerlink" title="css文件分类和引用顺序"></a>css文件分类和引用顺序</h3><ol>
 <li>公共样式 （重置设置默认值，通用模块等） </li>
 <li>特殊样式（与网站整体差异较大维护高）</li>
@@ -447,12 +491,28 @@
 <h6 id="背景颜色-命名空间bg-xxx"><a href="#背景颜色-命名空间bg-xxx" class="headerlink" title="背景颜色(命名空间bg -xxx)"></a>背景颜色(命名空间bg -xxx)</h6><p>bg-c1,bg-c2,bg-c3……</p>
 <h6 id="边框颜色-命名空间border-xxx"><a href="#边框颜色-命名空间border-xxx" class="headerlink" title="边框颜色(命名空间border-xxx)"></a>边框颜色(命名空间border-xxx)</h6><p>border-c1,border-c2,border-c3……<br><a href="https://github.com/hoosin/lite/blob/master/Standard/CSS%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md" target="_blank" rel="external"> 转载自 hoosin </a></p>
 ]]></content>
-    </entry>
     
-    <entry>
-      <title><![CDATA[npm常用命令]]></title>
-      <url>http://yoursite.com/2016/10/04/npm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-      <content type="html"><![CDATA[<p>npm常用命令操作。<br><a id="more"></a></p>
+    <summary type="html">
+    
+      &lt;p&gt;收集整理css相关命名规范。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="命名规范" scheme="http://yoursite.com/tags/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm常用命令</title>
+    <link href="http://yoursite.com/2016/10/04/npm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2016/10/04/npm常用命令/</id>
+    <published>2016-10-04T07:37:05.000Z</published>
+    <updated>2017-01-08T01:56:07.960Z</updated>
+    
+    <content type="html"><![CDATA[<p>npm常用命令操作。<br><a id="more"></a></p>
 <ul>
 <li><p>npm install xxx 安装模块</p>
 </li>
@@ -468,12 +528,26 @@
 </li>
 </ul>
 ]]></content>
-    </entry>
     
-    <entry>
-      <title><![CDATA[rem与媒体查询]]></title>
-      <url>http://yoursite.com/2016/09/29/rem%E4%B8%8E%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2/</url>
-      <content type="html"><![CDATA[<p>统一使用 rem 作为单位，可以通过更改html根标签上的字体大小来整体放大和缩小UI。</p>
+    <summary type="html">
+    
+      &lt;p&gt;npm常用命令操作。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rem与媒体查询</title>
+    <link href="http://yoursite.com/2016/09/29/rem%E4%B8%8E%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2/"/>
+    <id>http://yoursite.com/2016/09/29/rem与媒体查询/</id>
+    <published>2016-09-29T02:33:13.000Z</published>
+    <updated>2017-01-07T07:24:24.936Z</updated>
+    
+    <content type="html"><![CDATA[<p>统一使用 rem 作为单位，可以通过更改html根标签上的字体大小来整体放大和缩小UI。</p>
 <a id="more"></a>
 <h3 id="旧项目利用转换器将默认的css样式表px单位转换为rem"><a href="#旧项目利用转换器将默认的css样式表px单位转换为rem" class="headerlink" title="旧项目利用转换器将默认的css样式表px单位转换为rem"></a>旧项目利用转换器将默认的css样式表px单位转换为rem</h3><p>   转换器链接<a href="http://www.alurk.com/" target="_blank" rel="external">链接</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">1rem = 100px</div></pre></td></tr></table></figure></p>
 <p>因为chrome下最小字体大小为12px，所以不能把html的font-size设置成1px或者10px，100px或者20px是我们最好的选择。（设置谷歌浏览器最小字号为10px）</p>
@@ -484,8 +558,18 @@
 <h3 id="媒体查询-参考sui-链接"><a href="#媒体查询-参考sui-链接" class="headerlink" title="媒体查询    参考sui 链接"></a>媒体查询    参考sui <a href="http://m.sui.taobao.org/" target="_blank" rel="external">链接</a></h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*媒体查询（参考sui）根字号为20px*/</span></div><div class="line"><span class="selector-tag">html</span> &#123;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">400px</span>) &#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">21.33333333px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">414px</span>) &#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">22.08px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">480px</span>) &#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">25.6px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*根字号为100px*/</span></div><div class="line"><span class="selector-tag">html</span>&#123;<span class="attribute">font-size</span>:<span class="number">100px</span>;&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">400px</span>)&#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">106.66666px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">414px</span>)&#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">110.4px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">media</span> only screen and (min-width: <span class="number">480px</span>)&#123;</div><div class="line">    <span class="selector-tag">html</span> &#123;</div><div class="line">        <span class="attribute">font-size</span>: <span class="number">128px</span> <span class="meta">!important</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
-    </entry>
     
+    <summary type="html">
+    
+      &lt;p&gt;统一使用 rem 作为单位，可以通过更改html根标签上的字体大小来整体放大和缩小UI。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="rem" scheme="http://yoursite.com/tags/rem/"/>
+    
+  </entry>
   
-  
-</search>
+</feed>
